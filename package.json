@@ -1,0 +1,15 @@
+{
+  "name": "tello-controller",
+  "version": "1.0.0",
+  "description": "Clovaスキルからトイドローン「Tello」を音声操作するためのエンドポイントです。",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Miso Tanaka (https://twitter.com/miso_develop)",
+  "dependencies": {
+    "@line/clova-cek-sdk-nodejs": "^1.1.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  }
+}

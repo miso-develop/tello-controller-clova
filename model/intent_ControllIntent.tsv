@@ -1,0 +1,18 @@
+[INTENT SLOT]
+unit	unit
+number	CLOVA.NUMBER
+particle	particle
+direction	direction
+action	action
+
+[INTENT EXPRESSION]
+<action>上</action><particle>に</particle><number>50</number><unit>センチ</unit>
+<number>100</number><unit>センチ</unit><direction>右</direction>
+<direction>右</direction><particle>に</particle><number>100</number><unit>センチ</unit>
+<number>100</number><unit>センチ</unit><direction>右</direction><particle>に</particle><action>移動</action>
+<number>100</number><unit>センチ</unit><direction>右</direction><action>移動</action>
+<number>100</number><unit>センチ</unit><action>上昇</action>
+<direction>前</direction><particle>に</particle><number>100</number><unit>センチ</unit><action>移動</action>
+<direction>右</direction><particle>に</particle><action>フリップ</action>
+<direction>右</direction><action>フリップ</action>
+<action>発進</action>
